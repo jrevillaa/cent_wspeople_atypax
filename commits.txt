@@ -1,3 +1,9 @@
+commit 13e7e59c6d99c70b5a50c2790a5e52f555dacb3a
+Author: jrevilla <j_jair4@outlook.com>
+Date:   Fri Sep 18 15:43:18 2015 -0500
+
+    agregado el txt commits
+
 commit fc209786c10eab6da46d075c8c8a31400e5b1748
 Author: jrevilla <j_jair4@outlook.com>
 Date:   Fri Sep 18 11:45:13 2015 -0500

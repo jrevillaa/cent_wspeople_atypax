@@ -258,7 +258,7 @@ class local_wspeoplesoft_external extends external_api {
         return new external_multiple_structure(
                 new external_single_structure(
                 array(
-            'course' => new external_value(PARAM_TEXT, 'full name of course'),
+            'course' => new external_value(PARAM_TEXT, ' full name of course'),
             'calculation' => new external_value(PARAM_TEXT, 'full name of course'),
             'items' => new external_multiple_structure(
                     new external_single_structure(
