@@ -39,3 +39,4 @@ $string['wsenabledmember'] = 'Enabled XML Path Member';
 $string['enabledmemberdesc'] = 'Uncheck if you dont want to see the XML Members path.';
 $string['wstoken'] = 'Token';
 $string['wstokendesc'] = 'Insert the valid token for People Soft Webservice.';
+$string['taskupdateall'] = 'Update all data';
