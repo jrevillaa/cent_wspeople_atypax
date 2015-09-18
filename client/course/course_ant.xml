@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<bdems:BulkDataRecord xmlns:bdems="http://www.imsglobal.org/services/lis/bdems1p0/wsdl11/sync/imsbdems_v1p0">
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--666969-01-1320-S1-S1</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666969-01-1320-S1-S1</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0">
+  <cms:sourcedGUID>
+    <cms:refAgentInstanceID>CS</cms:refAgentInstanceID>
+    <cms:sourcedId>666969-01-1320-S1-S1</cms:sourcedId>
+  </cms:sourcedGUID>
+  <cms:courseOffering>
+    <cms:label>
+      <cms:language>en-US</cms:language>
+      <cms:textString>Módulo 4: Control de las mejoras logradas</cms:textString>
+    </cms:label>
+    <cms:title>
+      <cms:language>en-US</cms:language>
+      <cms:textString>Módulo 4: Control de las mejoras logradas</cms:textString>
+    </cms:title>
+    <cms:parentTemplateId>666969-01</cms:parentTemplateId>
+    <cms:catalogDescription>
+      <cms:shortDescription>
+        <cms:language>en-US</cms:language>
+        <cms:textString>SSM4 Six Sigma Black Belt4</cms:textString>
+      </cms:shortDescription>
+      <cms:longDescription>
+        <cms:language>en-US</cms:language>
+        <cms:textString>SSM4 Six Sigma Black Belt4</cms:textString>
+      </cms:longDescription>
+    </cms:catalogDescription>
+    <cms:status>Active</cms:status>
+    <cms:academicSession>
+      <cms:language>en-US</cms:language>
+      <cms:textString>PUCP-FCON-1320</cms:textString>
+    </cms:academicSession>
+    <cms:org>
+      <cms:orgName>
+        <cms:language>en-US</cms:language>
+        <cms:textString>PUCP-ICPUCP</cms:textString>
+      </cms:orgName>
+    </cms:org>
+    <cms:timeFrame>
+      <cms:begin>2013-07-08T00:00:00.000000</cms:begin>
+      <cms:end>2015-12-31T00:00:00.000000</cms:end>
+    </cms:timeFrame>
+    <cms:dataSource>CS</cms:dataSource>
+    <cms:extension>
+      <cms:extensionNameVocabulary/>
+      <cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary>
+      <cms:extensionField>
+        <cms:fieldName>Mode</cms:fieldName>
+        <cms:fieldType>String</cms:fieldType>
+        <cms:fieldValue>C</cms:fieldValue>
+      </cms:extensionField></cms:extension>
+    </cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+    
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--666802-01-1510-S1-S1</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666802-01-1510-S1-S1</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>666802-01-1510-S1-S1</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Taller de Trabajo en Equipo y Liderazgo</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Taller de Trabajo en Equipo y Liderazgo</cms:textString></cms:title><cms:parentTemplateId>666802-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>TEQLID T de Trab Equipo y Lid</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>TEQLID T de Trab Equipo y Lid</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-01-05T00:00:00.000000</cms:begin><cms:end>2015-07-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--666808-01-1510-S1-S1</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666808-01-1510-S1-S1</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>666808-01-1510-S1-S1</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Gestión de la Comunicación</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Gestión de la Comunicación</cms:textString></cms:title><cms:parentTemplateId>666808-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>GCO Ges de la Comunicación</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>GCO Ges de la Comunicación</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-01-05T00:00:00.000000</cms:begin><cms:end>2015-07-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--000032-01-1510-S1-S1</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>000032-01-1510-S1-S1</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>000032-01-1510-S1-S1</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Gráficaos de Control</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Gráficaos de Control</cms:textString></cms:title><cms:parentTemplateId>000032-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>GC Gráficos de Control</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>GC Gráficos de Control</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-01-05T00:00:00.000000</cms:begin><cms:end>2015-07-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--666805-01-1510-S1-S1</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666805-01-1510-S1-S1</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>666805-01-1510-S1-S1</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Gestión de Costos</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Gestión de Costos</cms:textString></cms:title><cms:parentTemplateId>666805-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>GCE Gestión de Costos</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>GCE Gestión de Costos</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-01-05T00:00:00.000000</cms:begin><cms:end>2015-07-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--666804-01-1510-S1-S1</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666804-01-1510-S1-S1</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>666804-01-1510-S1-S1</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Gestión del Tiempo</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Gestión del Tiempo</cms:textString></cms:title><cms:parentTemplateId>666804-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>GTI Gestión del Tiempo</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>GTI Gestión del Tiempo</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-01-05T00:00:00.000000</cms:begin><cms:end>2015-07-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--666809-01-1510-S1-S1</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666809-01-1510-S1-S1</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>666809-01-1510-S1-S1</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Gestión del Riesgo</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Gestión del Riesgo</cms:textString></cms:title><cms:parentTemplateId>666809-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>GRI Gestión del Riesgo</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>GRI Gestión del Riesgo</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-01-05T00:00:00.000000</cms:begin><cms:end>2015-07-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--666975-01-1510-S1-S1</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666975-01-1510-S1-S1</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>666975-01-1510-S1-S1</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Metodología ABC para el costeo de procesos</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Metodología ABC para el costeo de procesos</cms:textString></cms:title><cms:parentTemplateId>666975-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>ABCP Costeo procesos</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>ABCP Costeo procesos</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-01-05T00:00:00.000000</cms:begin><cms:end>2015-07-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--666802-01-1510-S2-S2</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666802-01-1510-S2-S2</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>666802-01-1510-S2-S2</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Taller de Trabajo en Equipo y Liderazgo</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Taller de Trabajo en Equipo y Liderazgo</cms:textString></cms:title><cms:parentTemplateId>666802-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>TEQLID T de Trab Equipo y Lid</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>TEQLID T de Trab Equipo y Lid</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-06-05T00:00:00.000000</cms:begin><cms:end>2015-08-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727-C-666799-01-1320-S23-S23</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666799-01-1320-S23-S23</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>666799-01-1320-S23-S23</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Introducción a la Gestión de Proyectos</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Introducción a la Gestión de Proyectos</cms:textString></cms:title><cms:parentTemplateId>666799-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>IGE Int a la Ges de Proyectos</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>IGE Int a la Ges de Proyectos</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1320</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2013-10-05T00:00:00.000000</cms:begin><cms:end>2015-10-10T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--000032-01-1510-S2-S2</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>000032-01-1510-S2-S2</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>000032-01-1510-S2-S2</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Gráficaos de Control</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Gráficaos de Control</cms:textString></cms:title><cms:parentTemplateId>000032-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>GC Gráficos de Control</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>GC Gráficos de Control</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-06-05T00:00:00.000000</cms:begin><cms:end>2015-08-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--666804-01-1510-S2-S2</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666804-01-1510-S2-S2</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>666804-01-1510-S2-S2</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Gestión del Tiempo</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Gestión del Tiempo</cms:textString></cms:title><cms:parentTemplateId>666804-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>GTI Gestión del Tiempo</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>GTI Gestión del Tiempo</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-06-05T00:00:00.000000</cms:begin><cms:end>2015-08-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+<bdems:transactionRecord>
+   <bdems:transactionOpIdentifier>43727--666979-01-1510-S1-S1</bdems:transactionOpIdentifier>
+   <bdems:serviceName>CourseManagementService</bdems:serviceName>
+   <bdems:interfaceName>CourseOfferingManager</bdems:interfaceName>
+   <bdems:operationName>replaceCourseOffering</bdems:operationName>
+   <bdems:parameterSet>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>sourcedId</bdems:parameterName>
+       <bdems:parameterType>GUID</bdems:parameterType>
+       <bdems:parameterValue>666979-01-1510-S1-S1</bdems:parameterValue>
+     </bdems:parameterRecord>
+     <bdems:parameterRecord>
+       <bdems:parameterInvoc>In</bdems:parameterInvoc>
+       <bdems:parameterName>payload</bdems:parameterName>
+       <bdems:parameterType>CourseOfferingRecord</bdems:parameterType>
+       <bdems:parameterValue>
+<cms:courseOfferingRecord xmlns:cms="http://www.imsglobal.org/services/lis/cmsv1p0/wsdl11/sync/imscms_v1p0"><cms:sourcedGUID><cms:refAgentInstanceID>CS</cms:refAgentInstanceID><cms:sourcedId>666979-01-1510-S1-S1</cms:sourcedId></cms:sourcedGUID><cms:courseOffering><cms:label><cms:language>en-US</cms:language><cms:textString>Las tecnologías que habilitan los BPM</cms:textString></cms:label><cms:title><cms:language>en-US</cms:language><cms:textString>Las tecnologías que habilitan los BPM</cms:textString></cms:title><cms:parentTemplateId>666979-01</cms:parentTemplateId><cms:catalogDescription><cms:shortDescription><cms:language>en-US</cms:language><cms:textString>TECP Habilitan los BPM</cms:textString></cms:shortDescription><cms:longDescription><cms:language>en-US</cms:language><cms:textString>TECP Habilitan los BPM</cms:textString></cms:longDescription></cms:catalogDescription><cms:status>Active</cms:status><cms:academicSession><cms:language>en-US</cms:language><cms:textString>PUCP-FCON-1510</cms:textString></cms:academicSession><cms:org><cms:orgName><cms:language>en-US</cms:language><cms:textString>PUCP-ICPUCP</cms:textString></cms:orgName></cms:org><cms:timeFrame><cms:begin>2015-01-05T00:00:00.000000</cms:begin><cms:end>2015-07-31T00:00:00.000000</cms:end></cms:timeFrame><cms:dataSource>CS</cms:dataSource><cms:extension><cms:extensionNameVocabulary/><cms:extensionTypeVocabulary>http://www.imsglobal.org/lis/cmsv1p0/extensionvocabularyv1p0</cms:extensionTypeVocabulary><cms:extensionField><cms:fieldName>Mode</cms:fieldName><cms:fieldType>String</cms:fieldType><cms:fieldValue>C</cms:fieldValue></cms:extensionField></cms:extension></cms:courseOffering></cms:courseOfferingRecord>
+          </bdems:parameterValue>
+      </bdems:parameterRecord>
+    </bdems:parameterSet>
+</bdems:transactionRecord>
+</bdems:BulkDataRecord>
